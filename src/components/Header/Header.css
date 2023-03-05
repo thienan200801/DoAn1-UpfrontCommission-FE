@@ -1,0 +1,13 @@
+.headerContainer{
+    height: 120px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.LogoNavbar{
+    height: 60px;
+    position: fixed;
+    top: 30px;
+    left: 100px;
+    right: 100px;
+}

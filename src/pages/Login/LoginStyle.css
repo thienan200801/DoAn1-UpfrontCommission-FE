@@ -1,0 +1,42 @@
+.loginBG {
+  width: 100%;
+  position: relative;
+}
+.loginForm {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  width: 450px;
+  height: 400px;
+  background-color: #fff;
+  padding: 45px 50px;
+}
+.welcome {
+  color: #1976d2;
+}
+.title {
+  margin-top: 12px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.MuiFormControl-root.MuiTextField-root.username.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  padding-bottom: 40px;
+}
+.saveUsername {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.Background {
+  height: calc(100vh - 120px);
+}
+
+.loginContainer {
+  background-image: url("../../assets/loginBG.png");
+  height: calc(100vh - 120px);
+  background-size: cover;
+}
