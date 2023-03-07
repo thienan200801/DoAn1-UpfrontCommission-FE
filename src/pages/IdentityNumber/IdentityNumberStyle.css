@@ -1,0 +1,22 @@
+.identityWrapper{
+    margin: 5% 10%;
+}
+.customIdentityInput{
+    width: 1180px;
+}
+.title{
+    font-size: 60px;
+    font-weight: 500;
+}
+.subtitle{
+    margin-bottom: 20px;
+}
+.labelIdentityNumber{
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+.identityBtnWraper{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

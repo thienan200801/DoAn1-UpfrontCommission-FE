@@ -15,7 +15,6 @@ export default function Login() {
     <>
       <Header />
       <div className="loginContainer">
-        {/* <img src={LoginBG} alt="Background" className="loginBG" /> */}
         <div className="loginForm">
           <div className="welcome">Welcome</div>
           <div className="title">LOGIN TO THE BROKER PORTAL</div>
