@@ -1,0 +1,33 @@
+.brokerDetailsWrapper{
+    margin: 20px 100px 15px;
+}
+.borrowerDetails{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+.borrowerDetailsInput{
+    display: flex;
+    flex-direction: column;
+}
+.borrowerDetailsInput #standard-basic{
+    margin-top: 16px;
+}
+.detailsCustomWrapper{
+    display: flex;
+}
+.topDetailsInput{
+    margin-bottom: 20px;
+    margin-top: 10px
+}
+.brokerDetailSubtitle{
+    font-weight: 500;
+}
+.brokerDetailSubtitle{
+    width: 20%;
+}
+.applicationDetailsWrapper{
+    display: flex;
+    margin-top: 12px;
+}
