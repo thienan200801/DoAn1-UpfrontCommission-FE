@@ -40,9 +40,17 @@
 .MuiFormControl-root.MuiTextField-root.topDetailsInput.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
     margin-bottom: 12px;
 }
-.brokerDetailsContentWrapper .brokerDetailSubtitle{
-    margin-bottom: 10px;
+.loanDetailsBox{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
 }
-.MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
-    width: 1275px;
+.loanDetailsBoxRight{
+    text-align: right;
+}
+.loanDetailsBox{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(129, 127, 127);
+    padding: 20px;
 }

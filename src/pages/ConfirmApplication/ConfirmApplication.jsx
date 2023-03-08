@@ -5,7 +5,7 @@ import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 
-import "../BrokerDetails/BrokerDetailsStyle.css";
+import "../ConfirmApplication/ConfirmApplicationStyle.css";
 
 export default function BrokerDetails() {
   return (
@@ -13,7 +13,7 @@ export default function BrokerDetails() {
       <Header />
       <div className="brokerDetailsWrapper">
         <div>
-          <div className="borrowerDetails">Borrower Details</div>
+          <div className="borrowerDetails">Confirm application</div>
           <div className="borrowerDetailsDescription">
             Please check the details of the person who apply for a home loan. If
             any fields are incorrect, please connect Customer Center
@@ -66,42 +66,44 @@ export default function BrokerDetails() {
 
         <div>
           <div className="borrowerDetails">Property Details</div>
-          <div className="borrowerDetailsDescription">
-            Please enter the details of property that borrower want to make the
-            home loan for
-          </div>
           <div className="detailsCustomWrapper">
-            <TextField
-              id="standard-basic"
-              label="Property Address"
-              variant="outlined"
-              className="topDetailsInput"
-            />
-            <TextField
-              id="standard-basic"
-              label="Property Estimated Value"
-              variant="outlined"
-            />
+            <div className="brokerDetailsContentWrapper">
+              <div className="brokerDetailSubtitle">Property Address</div>
+              <div className="propertyDetailsContent">
+                93 Alfred Street, Cocklebiddy, Western Australia
+              </div>
+            </div>
+            <div className="brokerDetailsContentWrapper">
+              <div className="brokerDetailSubtitle">
+                Property Estimated Value
+              </div>
+              <div className="propertyDetailsContent">$ 50000000</div>
+            </div>
           </div>
         </div>
 
         <div>
           <div className="borrowerDetails">Loan Details</div>
-          <div className="borrowerDetailsDescription">
-            Please enter the details of loan that borrower want to lend
-          </div>
           <div className="detailsCustomWrapper">
-            <TextField
-              id="standard-basic"
-              label="Lending amount"
-              variant="outlined"
-              className="topDetailsInput"
-            />
-            <TextField
-              id="standard-basic"
-              label="Lending Period"
-              variant="outlined"
-            />
+            <div className="brokerDetailsContentWrapper">
+              <div className="brokerDetailSubtitle">Lending amount</div>
+              <div className="loanDetailsContent">$ 50000000</div>
+            </div>
+            <div className="loanDetailsCover">
+              <div className="brokerDetailSubtitle">Loan Period</div>
+              <div className="loanDetailsBox">
+                <div className="loanDetailsBoxLeft">
+                  <div className="loanDetailsBoxLeftTop">5 years</div>
+                  <div className="loanDetailsBoxLeftBottom">Loan period</div>
+                </div>
+                <div className="loanDetailsBoxRight">
+                  <div className="loanDetailsBoxRightTop">15%</div>
+                  <div className="loanDetailsBoxRightBottom">
+                    Fixed rate per year
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -110,19 +112,17 @@ export default function BrokerDetails() {
           <div className="borrowerDetailsDescription">
             Please enter the details of Broker who will be paid commission to
           </div>
-          <div className="brokerDetailsCover">
-            <div className="brokerDetailsContentWrapper">
-              <div className="brokerDetailSubtitle">Broker Name</div>
-              <TextField id="standard-basic" variant="outlined" />
-            </div>
-            <div className="brokerDetailsContentWrapper">
-              <div className="brokerDetailSubtitle">Broker ID</div>
-              <TextField id="standard-basic" variant="outlined" />
-            </div>
-            <div className="brokerDetailsContentWrapper">
-              <div className="brokerDetailSubtitle">Aggregator Name</div>
-              <TextField id="standard-basic" variant="outlined" />
-            </div>
+          <div className="brokerDetailsContentWrapper">
+            <div className="brokerDetailSubtitle">Broker Name</div>
+            <div>Christ James Hans</div>
+          </div>
+          <div className="brokerDetailsContentWrapper">
+            <div className="brokerDetailSubtitle">Broker ID</div>
+            <div>HSL628369</div>
+          </div>
+          <div className="brokerDetailsContentWrapper">
+            <div className="brokerDetailSubtitle">Aggregator Name</div>
+            <div>Australian Mortgage Brokers</div>
           </div>
         </div>
 
