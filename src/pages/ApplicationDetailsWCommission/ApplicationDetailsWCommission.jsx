@@ -145,8 +145,12 @@ export default function BrokerDetails() {
 
         <div className="brokerDetailBtnWraper">
           <Stack spacing={2} direction="row">
-            <Button variant="outlined">Back</Button>
-            <Button variant="contained">Drawdown</Button>
+            <Button variant="outlined" className="btn1">
+              Back
+            </Button>
+            <Button variant="contained" className="btn2">
+              Drawdown
+            </Button>
           </Stack>
         </div>
       </div>

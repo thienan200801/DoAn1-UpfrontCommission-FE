@@ -128,8 +128,12 @@ export default function BrokerDetails() {
 
         <div className="brokerDetailBtnWraper">
           <Stack spacing={2} direction="row">
-            <Button variant="outlined">Cancel</Button>
-            <Button variant="contained">Next</Button>
+            <Button variant="outlined" className="btn1">
+              Cancel
+            </Button>
+            <Button variant="contained" className="btn2">
+              Next
+            </Button>
           </Stack>
         </div>
       </div>

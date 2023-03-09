@@ -38,7 +38,9 @@ export default function Login() {
           </FormGroup>
 
           <Stack spacing={2} direction="row">
-            <Button variant="contained">Login</Button>
+            <Button variant="contained" className="btn">
+              Login
+            </Button>
           </Stack>
         </div>
       </div>

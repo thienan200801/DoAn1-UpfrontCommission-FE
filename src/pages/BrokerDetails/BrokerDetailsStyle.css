@@ -46,3 +46,22 @@
 .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root{
     width: 1275px;
 }
+.brokerDetailBtnWraper .btn1{
+    border-color: red;
+    color: red;
+}
+.brokerDetailBtnWraper .btn1:hover{
+    border-color: red;
+    color: red;
+}
+
+.brokerDetailBtnWraper .btn2{
+    border-color: red;
+    color: white;
+    background-color: red;
+}
+.brokerDetailBtnWraper .btn2:hover{
+    border-color: red;
+    color: white;
+    background-color: red;
+}

@@ -26,3 +26,22 @@
 .applicationBoxRightTop{
     font-weight: 700;
 }
+.brokerDetailBtnWraper .btn1{
+    border-color: red;
+    color: red;
+}
+.brokerDetailBtnWraper .btn1:hover{
+    border-color: red;
+    color: red;
+}
+
+.brokerDetailBtnWraper .btn2{
+    border-color: red;
+    color: white;
+    background-color: red;
+}
+.brokerDetailBtnWraper .btn2:hover{
+    border-color: red;
+    color: white;
+    background-color: red;
+}

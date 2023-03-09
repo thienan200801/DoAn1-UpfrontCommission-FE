@@ -36,8 +36,12 @@ export default function BrokerDetails() {
 
         <div className="brokerDetailBtnWraper">
           <Stack spacing={2} direction="row">
-            <Button variant="outlined">Back to Welcome</Button>
-            <Button variant="contained">Go to Application Details</Button>
+            <Button variant="outlined" className="btn1">
+              Back to Welcome
+            </Button>
+            <Button variant="contained" className="btn2">
+              Go to Application Details
+            </Button>
           </Stack>
         </div>
       </div>
