@@ -16,3 +16,7 @@
 .errorDescription{
     margin-bottom: 20px;
 }
+.errorBtnWrapper button{
+    color: red;
+    border-color: red;
+}

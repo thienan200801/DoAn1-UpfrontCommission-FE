@@ -54,3 +54,22 @@
     border-color: rgb(129, 127, 127);
     padding: 20px;
 }
+.brokerDetailBtnWraper .btn1{
+    border-color: red;
+    color: red;
+}
+.brokerDetailBtnWraper .btn1:hover{
+    border-color: red;
+    color: red;
+}
+
+.brokerDetailBtnWraper .btn2{
+    border-color: red;
+    color: white;
+    background-color: red;
+}
+.brokerDetailBtnWraper .btn2:hover{
+    border-color: red;
+    color: white;
+    background-color: red;
+}

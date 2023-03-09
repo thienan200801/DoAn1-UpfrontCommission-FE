@@ -12,7 +12,7 @@ import SomethingWentWrong from './components/SomethingWentWrong/SomethingWentWro
 function App() {
   return (
     <>
-      <SomethingWentWrong />
+      {/* <SomethingWentWrong /> */}
       {/* <ApplicationDetailsWCommission /> */}
       {/* <FormSuccess /> */}
       {/* <ApplicationDetails /> */}
@@ -20,7 +20,7 @@ function App() {
       {/* <IdentityNumber /> */}
       {/* <Login /> */}
       {/* <Welcome /> */}
-      {/* <ConfirmApplication /> */}
+      <ConfirmApplication />
     </>
   );
 }

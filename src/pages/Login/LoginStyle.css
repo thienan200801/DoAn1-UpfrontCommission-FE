@@ -12,7 +12,7 @@
   padding: 45px 50px;
 }
 .welcome {
-  color: #1976d2;
+  color: red;
 }
 .title {
   margin-top: 12px;
@@ -39,4 +39,12 @@
   background-image: url("../../assets/loginBG.png");
   height: calc(100vh - 120px);
   background-size: cover;
+}
+.loginForm .btn{
+  color: white;
+  background-color: red;
+}
+.loginForm .btn:hover{
+  color: white;
+  background-color: red;
 }

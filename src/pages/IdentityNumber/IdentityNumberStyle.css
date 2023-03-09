@@ -20,3 +20,22 @@
     justify-content: center;
     margin-top: 20px;
 }
+.identityBtnWraper .btn1{
+    border-color: red;
+    color: red;
+}
+.identityBtnWraper .btn1:hover{
+    border-color: red;
+    color: red;
+}
+
+.identityBtnWraper .btn2{
+    border-color: red;
+    color: white;
+    background-color: red;
+}
+.identityBtnWraper .btn2:hover{
+    border-color: red;
+    color: white;
+    background-color: red;
+}
