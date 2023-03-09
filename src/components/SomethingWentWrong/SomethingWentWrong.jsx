@@ -11,17 +11,15 @@ export default function SomethingWentWrong() {
     <>
       <Header />
       <div className="errorWrapper">
-        <div className="mainContentCover">
-          <img src={InforIcon} alt="InforIcon" className="InforIcon" />
-          <div className="errorTitle">Something went wrong</div>
-          <div className="errorDescription">
-            Sorry, we had a problem loading this page. Please try again shortly
-          </div>
-          <div className="errorBtnWrapper">
-            <Stack spacing={2} direction="row">
-              <Button variant="outlined">Refresh</Button>
-            </Stack>
-          </div>
+        <img src={InforIcon} alt="InforIcon" className="InforIcon" />
+        <div className="errorTitle">Something went wrong</div>
+        <div className="errorDescription">
+          Sorry, we had a problem loading this page. Please try again shortly
+        </div>
+        <div className="errorBtnWrapper">
+          <Stack spacing={2} direction="row">
+            <Button variant="outlined">Refresh</Button>
+          </Stack>
         </div>
       </div>
     </>
